@@ -1,6 +1,6 @@
 
 config BSD_LIB
-	bool
+	bool "Binary bsdlib"
 	default y
 	depends on BSD_LIBRARY
 	select NRF_OBERON
